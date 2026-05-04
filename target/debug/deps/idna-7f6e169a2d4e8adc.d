@@ -1,0 +1,10 @@
+/home/camelcaselover/Documents/Scripts/Low-Level/mail-server/target/debug/deps/idna-7f6e169a2d4e8adc.d: /home/camelcaselover/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-0.4.0/src/lib.rs /home/camelcaselover/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-0.4.0/src/punycode.rs /home/camelcaselover/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-0.4.0/src/uts46.rs /home/camelcaselover/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-0.4.0/src/uts46_mapping_table.rs
+
+/home/camelcaselover/Documents/Scripts/Low-Level/mail-server/target/debug/deps/libidna-7f6e169a2d4e8adc.rlib: /home/camelcaselover/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-0.4.0/src/lib.rs /home/camelcaselover/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-0.4.0/src/punycode.rs /home/camelcaselover/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-0.4.0/src/uts46.rs /home/camelcaselover/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-0.4.0/src/uts46_mapping_table.rs
+
+/home/camelcaselover/Documents/Scripts/Low-Level/mail-server/target/debug/deps/libidna-7f6e169a2d4e8adc.rmeta: /home/camelcaselover/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-0.4.0/src/lib.rs /home/camelcaselover/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-0.4.0/src/punycode.rs /home/camelcaselover/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-0.4.0/src/uts46.rs /home/camelcaselover/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-0.4.0/src/uts46_mapping_table.rs
+
+/home/camelcaselover/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-0.4.0/src/lib.rs:
+/home/camelcaselover/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-0.4.0/src/punycode.rs:
+/home/camelcaselover/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-0.4.0/src/uts46.rs:
+/home/camelcaselover/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-0.4.0/src/uts46_mapping_table.rs:
