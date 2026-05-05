@@ -1,7 +1,7 @@
 # mail-server
 ## This is the configuration needed more so on the environment
 MAIL_SERVER: host:port ex. 192.168.12.123:2525 the port should be exactly as I have demonstrated because isp will block the smtp port i.e 25
-Remember to add the allowed origins to avoid cors origin
+Remember to add the allowed origins to avoid cors blocking
 
 ## Start the mail server
 cargo run
