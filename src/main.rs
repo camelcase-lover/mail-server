@@ -9,7 +9,7 @@ async fn main() -> Result<(), std::io::Error>{
 
     let details = ServerDetails::new();
     let  config = SmtpConfig{
-        bind_addr: "0.0.0.0:2525".to_string(),
+        bind_addr: "127.0.0.1:2525".to_string(),
         require_auth: true,
         auth_machs: vec![AuthMach::Plain, AuthMach::Login],
         ..Default::default()

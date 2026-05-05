@@ -1,0 +1,28 @@
+{
+  "name": "mail-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon webServer/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camelcase-lover/mail-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/camelcase-lover/mail-server/issues"
+  },
+  "homepage": "https://github.com/camelcase-lover/mail-server#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "fastify": "^5.8.5",
+    "fastify-swagger": "^5.1.1",
+    "nodemon": "^3.1.14"
+  }
+}
