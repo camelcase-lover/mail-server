@@ -1,6 +1,9 @@
 use smtpd::{async_trait, start_server, SmtpConfig, AuthMach};
 use dotenvy::dotenv;
 use std::env;
+mod storage;
+use crate::storage::mailbox::save_mail;
+use crate::storage::message::MailMessage;
 
 #[tokio::main]
 async fn main() -> Result<(), std::io::Error>{
@@ -72,6 +75,37 @@ impl smtpd::SmtpHandler for MyHandler{
         
 
        
+    }
+
+    async fn handle_email(&mut self, _session: &smtpd::Session, _data: Vec<u8>) -> Result<smtpd::Response, smtpd::Error>{
+        let body = String::from_utf8_lossy(&_data);
+
+        let mail = MailMessage{
+            from: _session.from.clone(),
+            to: _session.to.first().cloned().unwrap_or_default(),
+            subject: "No Subject".to_string(),
+            body: body.to_string(),
+            date: chrono::Utc::now().to_rfc2822(),
+        };
+
+        let username = mail
+        .to
+        .split('@')
+        .next()
+        .unwrap_or("unknown");
+        
+        match save_mail(username, &mail) {
+            Ok(path) => {
+                println!("Saved mail to {}", path);
+                Ok(smtpd::Response::Default)
+            }
+
+            Err(err) => {
+                eprintln!("Save error: {}", err);
+                Err(smtpd::Error::Abort)
+            }
+        }
+        
     }
 }
 

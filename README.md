@@ -10,3 +10,6 @@ Remember to add the allowed origins to avoid cors blocking`
 `npm run dev`
 
 `on the pages part start the live server or just click on the page but note the port it is running to put it in env to prevent cors blocking`
+
+## Save email to file before sending 
+`I have added file save .eml but still not encypted just saving as plain text, encryption will be done at the end of the project`
